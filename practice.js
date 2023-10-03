@@ -19,12 +19,15 @@ export function setupPractice (element) {
 function varsAndTypes(element) {
   // kod för att visa vad du lärt dig om variabler och typer
   let varsAndTypes = 'varsAndTypes'
-  console.log(varsAndTypes, typeof(varsAndTypes))
+  let siffra = 0
+  let siffra1 = 42
+  let siffra2 = 5120
+  let cool = true
+  const max = 12
 }
 
 function operators(element) {
   // kod för att visa vad du lärt dig om operatorer
-  console.log('operators === ', 1 === 1)
 }
 
 function controlStructures(element) {
