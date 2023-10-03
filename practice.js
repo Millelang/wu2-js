@@ -79,13 +79,16 @@ function arraysAndObjects (element) {
 function domAndEvents (element) {
   // kod för att visa vad du lärt dig om DOM och events
   // använd med html och listeners
-
-  console.log(element, 'lyssna efter event för att ändra element')
-  
+  let sida = document.querySelector('#stor')
+  console.log(sida)
+  sida.addEventListener( "click", event =>{
+    sida.textContent = 'ATTACK'
+})
 }
 
 function domManipulation (element) {
+  
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
-  element.innerHTML = 'dom manipulation, ändra och lägg till element'
+  
 }
