@@ -24,6 +24,7 @@ function varsAndTypes(element) {
   let siffra2 = 5120
   let cool = true
   const max = 12
+  console.log(max,siffra,siffra1,siffra2,cool)
   
 }
 
@@ -48,8 +49,19 @@ function operators(element) {
 function controlStructures(element) {
   // kod för att visa vad du lärt dig om kontrollstrukturer
   // if och loopar
-  let controlStructures = 'controlStructures'
-  console.log(controlStructures, controlStructures ? 'if' : 'loopar')
+  let siffr =0
+  let varning = false
+for(let x = 0; x<100;x++) {
+  siffr = siffr+x
+  console.log(siffr)
+  
+  if ( x==99) {
+    varning = true
+  }
+}
+if (varning = true) {
+  alert('varning')
+}
 }
 
 function arraysAndObjects (element) {
