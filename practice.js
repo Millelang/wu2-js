@@ -66,6 +66,13 @@ if (varning = true) {
 
 function arraysAndObjects (element) {
   // kod för att visa vad du lärt dig om arrays och objekt
+  let dencoolalistan = []
+  for (let x =0; x<=100; x++) {
+    dencoolalistan.push(x)
+  }
+  console.log(dencoolalistan)
+  
+  
   console.log(['arrays', {and: 'objects'}])
 }
 
