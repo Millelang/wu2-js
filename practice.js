@@ -79,7 +79,9 @@ function arraysAndObjects (element) {
 function domAndEvents (element) {
   // kod för att visa vad du lärt dig om DOM och events
   // använd med html och listeners
+
   console.log(element, 'lyssna efter event för att ändra element')
+  
 }
 
 function domManipulation (element) {
